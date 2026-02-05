@@ -1,0 +1,117 @@
+body{
+    background-color: #000750;
+    font-family: 'Jaro', sans-serif;
+        color: white;
+}
+
+.header{
+    display: flex;
+    width:50%;
+    height: 150px;
+    background-color: #0086CF;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    position: sticky;
+    top: 0;
+}
+
+.header-icons{
+    width: 100px;
+    height: 100px;
+}
+
+.home{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 8%;
+    flex-direction: column;
+}
+
+.home-h1{
+    font-size: 128px;
+    padding: 0;
+    margin: 0;
+}
+
+.home-h2{
+    font-size: 64px;
+    padding: 0;
+    margin: 0;
+}
+
+.projects{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.title-h1{
+    font-size: 96px;
+    align-self: center;
+    margin-top: 0;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  background-color: #005BC3;
+  box-shadow: 0 8px 16px 0 white;
+  transition: 0.3s;
+  margin: 30px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 24px 48px 0 white;
+  scale: 120%;
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.card-img{
+    max-width: 650px;
+    height: auto;
+}
+
+.card-holder{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.skillset{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
