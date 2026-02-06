@@ -5,61 +5,115 @@
 <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jaro&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
     <div class="header">
-        <img class="header-icons" src="home.png">
-        <img class="header-icons" src="project.png">
-        <img class="header-icons" src="user.png">
-        <img class="header-icons" src="skill.png">
+        <a href="#top"><img class="header-icons" src="home.png"></a>
+        <a href="#projects"><img class="header-icons" src="project.png"></a>
+        <a href="#profile"><img class="header-icons" src="user.png"></a>
+        <a href="#skillset"><img class="header-icons" src="skill.png"></a>
     </div>
-    <div class="home">
+    <div class="home" id="home">
         <h1 class="home-h1">HELLO!</h1>
         <h1 class="home-h1">I'm Nathan</h1>
         <h2 class="home-h2">an aspiring software engineer</h2>
     </div>
-    <div class="projects">
+    <div class="projects" id="projects">
         <h1 class="title-h1">My Projects</h1>
         <div class="card-holder">
             <div class="card">
                 <img src="Ball1n .png" class="card-img" alt="Avatar" style="width:100%">
                 <div class="container">
-                    <h4><b>Ball1n</b></h4>
-                    <p>Architect & Engineer</p>
+                    <h4 class="card-h4">Ball1n</h4>
+                    <p class="card-p">Developed 2D RPG game using Godot and GDScript, that won first place in a gamejam
+                    </p>
                 </div>
             </div>
             <div class="card">
                 <img src="SharedSpace.png" class="card-img" alt="Avatar" style="width:100%">
                 <div class="container">
-                    <h4><b>SharedSpace</b></h4>
-                    <p>Architect & Engineer</p>
+                    <h4 class="card-h4">SharedSpace</h4>
+                    <p class="card-p">Developed an art-sharing full-stack web application using MongoDB, Express, React,
+                        and Node.js</p>
                 </div>
             </div>
             <div class="card">
                 <img src="CPPSolver.jpg" class="card-img" alt="Avatar" style="width:100%">
                 <div class="container">
-                    <h4><b>City Pollution Solver</b></h4>
-                    <p>Architect & Engineer</p>
+                    <h4 class="card-h4">City Pollution Solver</h4>
+                    <p class="card-p">Created optimization-based pollution reduction solver using R and Shiny</p>
                 </div>
             </div>
             <div class="card">
                 <img src="BeBleus.jpg" class="card-img" alt="Avatar" style="width:100%">
                 <div class="container">
-                    <h4><b>BeBleus</b></h4>
-                    <p>Architect & Engineer</p>
+                    <h4 class="card-h4">BeBleus</h4>
+                    <p class="card-p">Built desktop e-commerce application using Java with JavaFX-based user interface
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-    <div class="profile">
+    <div class="profile" id="profile">
         <h1 class="title-h1">About Me</h1>
+        <div class="profile-content">
+            <img src="profile.jpg" class="profile-img">
+            <div class="profile-info">
+                <h2 class="profile-h2">Nathaniel Escano</h2>
+                <h3 class="profile-h3">Aspiring Software Engineer</h3>
+                <p class="profile-p">A motivated aspiring software engineer with experience in full-stack web
+                    development, game
+                    development, and data science. I am passionate about creating innovative solutions to complex
+                    problems and am always eager to learn new technologies and techniques.
+                </p>
+                <h3 class="profile-h3">Connect with me.</h3>
+                <p class="profile-p">Email: nnescano@up.edu.ph</p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/nathaniel-escano-145b80382/" target="_blank"><img
+                            src="linkedin.png" class="social-icon"></a>
+                    <a href="https://github.com/Natex15" target="_blank"><img src="github.png" class="social-icon"></a>
+                    <a href="https://www.facebook.com/nathaniel.escano.35/" target="_blank"><img src="facebook.png"
+                            class="social-icon"></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="skillset">
+    <div class="skillset" id="skillset">
         <h1 class="title-h1">Skills</h1>
+        <div class="skillset-content">
+            <div class="skill-category">
+                <h2 class="skill-h2">Programming Languages</h2>
+                <ul class="skill-list">
+                    <li class="skill-item" style="background-image: url(python-file-symbol.png);">Python</li>
+                    <li class="skill-item" style="background-image: url(java.png);">Java</li>
+                    <li class="skill-item" style="background-image: url(r.png);">R</li>
+                    <li class="skill-item" style="background-image: url(letter-c.png);">C</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h2 class="skill-h2">Frameworks & Libraries</h2>
+                <ul class="skill-list">
+                    <li class="skill-item" style="background-image: url(node-js.png);">MERN Stack</li>
+                    <li class="skill-item" style="background-image: url(unity.png);">Unity</li>
+                    <li class="skill-item" style="background-image: url(r.png);">Rshiny</li>
+                    <li class="skill-item" style="background-image: url(Godot_icon.svg);">Godot</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h2 class="skill-h2">Tools & Platforms</h2>
+                <ul class="skill-list">
+                    <li class="skill-item" style="background-image: url(github.png);">Git & GitHub</li>
+                    <li class="skill-item" style="background-image: url(figma.png);">Figma</li>
+                    <li class="skill-item" style="background-image: url(photoshop.png);">Photoshop</li>
+                    <li class="skill-item" style="background-image: url(microsoft.png);">Microsoft Workspace</li>
+                </ul>
+            </div>
+        </div>
     </div>
+
 </body>
 
 </html>
