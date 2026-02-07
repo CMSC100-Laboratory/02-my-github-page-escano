@@ -3,11 +3,39 @@ html {
 }
 
 body{
-    background-image: url(galaxy-bg.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: linear-gradient(135deg, #00133a 0%, #003d82 50%, #0077ff 100%);
     font-family: 'Jaro', sans-serif;
         color: white;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.background-whale{
+    position: fixed;
+    opacity: 0.1;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.whale-1{
+    top: 10%;
+    left: 5%;
+    width: 200px;
+    height: 200px;
+}
+
+.whale-2{
+    top: 35%;
+    right: 8%;
+    width: 250px;
+    height: 250px;
+}
+
+.whale-3{
+    bottom: 15%;
+    left: 15%;
+    width: 180px;
+    height: 180px;
 }
 
 .header{
@@ -32,6 +60,12 @@ body{
 .header-icons{
     width: 50px;
     height: 50px;
+    filter: contrast(80%);
+}
+
+.header-icons:hover{
+    transform: translateY(-5px);
+    filter: contrast(100%);
 }
 
 .home{
@@ -65,6 +99,11 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+}
+
+.projects-a{
+    text-decoration: none;
+    color: white;
 }
 
 .title-h1{
@@ -150,11 +189,15 @@ body{
     margin-right: 20px;
 }
 
+.social-icon:hover{
+    transform: translateY(-5px);
+}
+
 .skillset{
     width: 100vw;
     height: 100vh;
     margin: 0;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -163,7 +206,8 @@ body{
 
 .skillset-content{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     margin-top: 1%;
 }
 
@@ -182,4 +226,46 @@ body{
     background-position: left center; 
     background-size: 70px; 
     font-size: 20px;
+}
+
+.footer{
+    width: 100vw;
+    height: 80px;
+    background-color: #00133a;
+    backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footer-p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo{
+    width: 40px;
+    height: 40px;
+    filter: contrast(0%);
+}
+
+.footer-icons a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+    margin-left: 20px;
+}
+.footer-icons a:hover{
+    color:white
 }

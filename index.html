@@ -6,10 +6,14 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Jaro&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="64x64" href="Whale.png">
 
 </head>
 
 <body>
+    <img src="whale.png" class="background-whale whale-1" alt="">
+    <img src="whale.png" class="background-whale whale-2" alt="">
+    <img src="whale.png" class="background-whale whale-3" alt="">
     <div class="header">
         <a href="#top"><img class="header-icons" src="home.png"></a>
         <a href="#projects"><img class="header-icons" src="project.png"></a>
@@ -24,37 +28,48 @@
     <div class="projects" id="projects">
         <h1 class="title-h1">My Projects</h1>
         <div class="card-holder">
-            <div class="card">
-                <img src="Ball1n .png" class="card-img" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4 class="card-h4">Ball1n</h4>
-                    <p class="card-p">Developed 2D RPG game using Godot and GDScript, that won first place in a gamejam
-                    </p>
+            <a href="https://github.com/Natex15/Ball1n" target="_blank" class="projects-a">
+                <div class="card">
+                    <img src="Ball1n .png" class="card-img" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4 class="card-h4">Ball1n</h4>
+                        <p class="card-p">Developed 2D RPG game using Godot and GDScript, that won first place in a
+                            gamejam
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="SharedSpace.png" class="card-img" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4 class="card-h4">SharedSpace</h4>
-                    <p class="card-p">Developed an art-sharing full-stack web application using MongoDB, Express, React,
-                        and Node.js</p>
+            </a>
+            <a href="https://github.com/Natex15/SharedSpace" target="_blank" class="projects-a">
+                <div class="card">
+                    <img src="SharedSpace.png" class="card-img" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4 class="card-h4">SharedSpace</h4>
+                        <p class="card-p">Developed an art-sharing full-stack web application using MongoDB, Express,
+                            React,
+                            and Node.js</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="CPPSolver.jpg" class="card-img" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4 class="card-h4">City Pollution Solver</h4>
-                    <p class="card-p">Created optimization-based pollution reduction solver using R and Shiny</p>
+            </a>
+            <a href="https://github.com/Natex15/City-Pollution-Reduction-Solver" target="_blank" class="projects-a">
+                <div class="card">
+                    <img src="CPRSolver.jpg" class="card-img" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4 class="card-h4">City Pollution Reduction Solver</h4>
+                        <p class="card-p">Created optimization-based pollution reduction solver using R and Shiny</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="BeBleus.jpg" class="card-img" alt="Avatar" style="width:100%">
-                <div class="container">
-                    <h4 class="card-h4">BeBleus</h4>
-                    <p class="card-p">Built desktop e-commerce application using Java with JavaFX-based user interface
-                    </p>
+            </a>
+            <a href="https://github.com/Natex15/Online-Store-javafx" target="_blank" class="projects-a">
+                <div class="card">
+                    <img src="BeBleus.jpg" class="card-img" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4 class="card-h4">BeBleus</h4>
+                        <p class="card-p">Built desktop e-commerce application using Java with JavaFX-based user
+                            interface
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
     <div class="profile" id="profile">
@@ -113,7 +128,18 @@
             </div>
         </div>
     </div>
-
+    <div class="footer">
+        <div class="footer-content">
+            <img src="whale.png" class="footer-logo" alt="Whale Logo">
+            <p class="footer-p">© 2024 Nathaniel Escano. All rights reserved.</p>
+        </div>
+        <div class="footer-icons">
+            <a href="#home" >Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#profile">About Me</a>
+            <a href="#skillset">Skills</a>
+        </div>
+    </div>
 </body>
 
 </html>
